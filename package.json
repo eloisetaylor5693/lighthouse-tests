@@ -1,0 +1,17 @@
+{
+  "name": "lighthouse-tests-on-reedonline",
+  "version": "1.0.0",
+  "description": "Scan reed.co.uk for SEO, accessibility, and performance issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "lighthouse-batch -f sites.txt --out lighthouse-results\\%date:~6,4%%date:~3,2%%date:~0,2%-%time:~0,2%%time:~3,2%%time:~6,2% --html"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Eloise Taylor",
+  "license": "ISC",
+  "devDependencies": {
+    "lighthouse-batch": "^5.0.1"
+  }
+}
