@@ -12,6 +12,6 @@
   "author": "Eloise Taylor",
   "license": "ISC",
   "devDependencies": {
-    "lighthouse-batch": "^5.0.1"
+    "lighthouse-batch": "^8.1.1"
   }
 }
